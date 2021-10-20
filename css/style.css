@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Festive', cursive;
     margin: 0;            
 }
 header {
