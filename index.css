@@ -1,0 +1,360 @@
+html{
+    width: 100%;
+    font-family: 'Kings', cursive;
+    font-size: 15px
+}
+body {
+    width: 100%;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-size: 3.5em;
+    text-align: center;
+}
+
+h5 {
+    color: white;
+    font-size: 1.4em;
+    text-align: center;
+    margin-top: -10px;
+}
+
+#text {
+    color: gold;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+button {
+    background-color: black;
+    border: gold 3px solid;
+}
+
+.botones {
+    margin-left: 10px;
+}
+
+#div1 {
+    margin-top: -5px;
+    text-align: center;
+}
+
+#Poke {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+#Prac {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+#Sis {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+#Pf {
+    width: 100px;
+    height: 150px;
+    text-align: center;
+}
+
+.p {
+    font-size: 1.2em;
+    color: white;
+}
+
+
+/* Smarthphone vertical   */ 
+@media (max-width:639px) {
+    h1 {
+        font-size: 3.2em;
+
+    }
+    
+    h5{
+        font-size: 1.2em;
+    }
+
+    #div1 {
+        width: auto;
+        text-align: center;
+    }
+
+    #text{
+        font-size: 1.3em;
+        text-align: center;
+    }
+
+    #Poke {
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        margin: auto;
+        padding: auto;
+    }
+    
+    #Prac {
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        margin: auto;
+        padding: auto;
+    }
+    
+    #Sis {
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        margin: auto;
+        padding: auto;
+    }
+    
+    #Pf {
+        width: 60px;
+        height: 100px;
+        text-align: center;
+        margin: auto;
+        padding: auto;
+    }
+ 
+    #Pf {
+        width: 60px;
+        height: 100px;
+        text-align: center;
+        margin: auto;
+        padding: auto;
+    }
+
+    .p {
+        color: white; 
+        margin-top: 5px;  
+        text-align: center; 
+    }
+}
+
+
+/*     smarthphone horizontal  & tablets vertical*/ 
+@media only screen and (min-width:640px) and (max-width:1023px){
+    h1 {
+         font-size: 3.2em;
+    }
+    
+    h5 {
+        font-size: 1.4em;
+    }
+
+    #div1 {
+        width: auto;
+    }
+
+    #text{
+        text-align: center;
+        font-size: 1.5em;
+    }
+    
+    #Poke {
+        width: 125px;
+        height: 125px;
+        text-align: center;
+        margin: auto;
+        padding: auto;
+    }
+    
+    #Prac {
+        width: 125px;
+        height: 125px;
+        text-align: center;
+        margin: auto;
+        padding: auto;
+    }
+    
+    #Sis {
+        width: 125px;
+        height: 125px;
+        text-align: center;
+        margin: auto;
+        padding: auto;
+    }
+
+    #Pf {
+        width: 80px;
+        height: 125px;
+        text-align: center;
+        margin: auto;
+        padding: auto;
+    }
+}
+
+
+/*     tablets horizontal & laptop vertical (touch screen)    */ 
+@media only screen and (min-width:1024px) and (max-width:1279px){                      
+    
+    #div1 {
+        width: auto;
+    }
+
+    #text {
+        text-align: center;
+        font-size: 1.8em;
+    }
+    
+    .p {
+        font-size: 1.5em;
+    }
+
+    #Poke {
+        width: 150px;
+        height: 150px;
+        text-align: center;
+        margin: auto;
+        padding: auto;
+    }
+    
+    #Prac {
+        width: 150px;
+        height: 150px;
+        text-align: center;
+        margin: auto;
+        padding: auto;
+    }
+    
+    #Sis {
+        width: 150px;
+        height: 150px;
+        text-align: center;
+        margin: auto;
+        padding: auto;
+    }
+
+    #Pf {
+        width: 100px;
+        height: 150px;
+        text-align: center;
+        margin: auto;
+        padding: auto;
+    }
+ } 
+
+
+/*     laptops    & Monitores  */ 
+@media only screen and (min-width:1280px) and (max-width:1919px){
+    
+    #div1 {
+        width: 98%;
+        text-align: center;
+    }
+
+    h5{
+        font-size: 2em;
+    }
+
+    #text {
+        text-align: center;
+        font-size: 2em;
+    }
+    
+    .p {
+        font-size: 1.4em;
+    }
+
+    #Poke {
+        width: 180px;
+        height: 180px;
+        text-align: center;
+        margin: auto;
+        padding: auto;
+    }
+    
+    #Prac {
+        width: 180px;
+        height: 180px;
+        text-align: center;
+        margin: auto;
+        padding: auto;
+    }
+    
+    #Sis {
+        width: 180px;
+        height: 180px;
+        text-align: center;
+        margin: auto;
+        padding: auto;
+    }
+
+    #Pf {
+        width: 120px;
+        height: 180px;
+        text-align: center;
+        margin: auto;
+        padding: auto;
+    }
+}
+
+
+/*     Televisores  */      
+@media only screen and (min-width:1920px){
+    #div1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 4em;
+    }
+
+    h5 {
+        font-size: 2.5em;
+    }
+
+    #text {
+        text-align: center;
+        font-size: 2.5em;
+    }
+    
+    .p {
+        font-size: 1.8em;
+    }
+
+    #Poke {
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        margin: auto;
+        padding: auto;
+    }
+    
+    #Prac {
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        margin: auto;
+        padding: auto;
+    }
+    
+    #Sis {
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        margin: auto;
+        padding: auto;
+    }
+
+    #Pf {
+        width: 150px;
+        height: 200px;
+        text-align: center;
+        margin: auto;
+        padding: auto;
+    }
+}
