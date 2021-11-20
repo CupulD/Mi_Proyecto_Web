@@ -221,11 +221,11 @@ select{
    }
 
    select {
-      width: 150px;
-      height: 15px;
-      font-size: 1.1em;
+      width: 180px;
+      height: 20px;
+      font-size: 1.5em;
       margin-top: 10px;
-      margin-left: 14px;
+      margin-left: 15px;
    }
 
    marquee {
