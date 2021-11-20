@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Kings&family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mohave:wght@300&display=swap');
+
+
+html {
+   width: 100%;
+   font-family: 'Kings', cursive;
+   font-size: 10px;
+}
+
+body {
+   background-color: rgb(15, 15, 15);
+   width: 100%;
+}
+
+header {
+   margin: 0px;
+   padding: 2px;
+}
+
+.div {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#titulo {
+   text-align:center;
+   font-family: cursive;
+   color:rgba(238, 206, 24, 0.801);
+   font-size: 2.5em;
+   display: inline-block;
+   margin-top: -10;
+}
+
+#menu {
+   display: flex;
+   width: 95%;
+   justify-content: center;
+   margin-left: 30px;
+   background-color: rgb(15, 15, 15);
+   border-bottom: 4px whitesmoke solid;
+   border-top: 4px whitesmoke solid;
+}
+
+nav {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(15, 15, 15);
+}
+
+ul {
+   list-style-type: none;
+   margin: 0px;
+   padding: 0px 20px;
+   overflow: hidden;
+}
+
+li {
+   float: left;
+   padding: 8px;
+   margin: auto;
+}
+
+li a {
+   text-decoration: none;
+   text-align: center;
+   display: block;
+   padding-right: 20px;
+   font-family: 'Kings', cursive;
+   font-size: 26px;
+   color: rgb(5, 165, 90);
+}
+
+li a:hover {
+    color: mediumturquoise;
+
+}
+
+#C {
+   text-align: center;
+   color: whitesmoke;
+   font-size: 3.5em;
+}
+
+p {
+   color: whitesmoke;
+   font-size: 2.2em;
+   text-align: center;
+   font-family: Times New Roman, Times, serif;
+}
+
+
+/* Smarthphone vertical   */ 
+@media (max-width:639px){
+   
+   body {
+      width: 98%;
+   }
+   
+   #titulo {
+      font-size: 2.5em;
+      margin-bottom: 5px;
+      margin-top: -3px;
+   }
+
+   #menu {
+      width: 98%;
+      text-align: center;
+      border-bottom: 2px whitesmoke solid;
+      border-top: 2px whitesmoke solid;
+      margin-left: 2px;
+   }
+   
+   nav {
+      padding: 5px 5px;
+      border: 2px, whitesmoke, solid;
+   }
+   
+   li a {
+      font-size: 1em;
+      padding-left: 2px;
+      padding-right: 2px;
+   }
+
+   #C {
+      font-size: 2em;
+   }
+
+   p {
+      font-size: 2em;
+      margin-top: 15px;
+   }
+
+} 
+
+
+/*     smarthphone horizontal  & tablets vertical*/ 
+@media only screen and (min-width:640px) and (max-width:1023px){
+
+   body {
+      width: 98%;
+   }
+
+   #titulo {
+      font-size: 3.5em;
+      margin-top: 5px;
+      margin-bottom: 5px;
+   }
+
+   #menu {
+      width: 95%;
+      text-align: center;
+      margin-left: 15px;
+   }
+   
+   li a {
+      padding-right: 3px;
+      font-size: 2em;
+   }
+
+   #C {
+      font-size: 2.5em;
+}
+
+   p {
+      font-size:2.5em;
+}
+}
+
+
+/*     tablets horizontal & laptop vertical (touch screen)    */ 
+@media only screen and (min-width:1024px) and (max-width:1329px){
+
+   body {
+      width: 98%;
+   }
+
+   #titulo {
+      font-size: 3.5em;
+      margin-top: 5px;
+      margin-bottom: 5px;
+   }
+
+   #menu {
+      width: 98%;
+      text-align: center;
+      margin-left: 10px;
+   }
+
+   li a {
+      font-size: 2.8em;
+   } 
+      
+   #C {
+       font-size: 4.5em;
+       color: white;
+   }
+
+   #C {
+      font-size: 3.5em;
+   }
+
+   p {
+      font-size: 3em;
+   }
+
+}
+
+
+/*     laptops    & Monitores  */ 
+@media only screen and (min-width:1330px) and (max-width:1919px){
+
+   body {
+      width: 98%;
+   }
+
+   #titulo {
+      font-size: 4em;
+      margin-top: 5px;
+      margin-bottom: 5px;
+   }
+
+   #menu {
+      width: 98%;
+      text-align: center;
+      margin-left: 15px;
+   }
+   
+   li a {
+      font-size: 3.4em;
+   }
+
+   #C {
+      font-size: 4em;
+   }
+
+   p {
+      font-size: 3.5em;
+   }
+
+}
+
+
+/*     Televisores  */      
+@media only screen and (min-width:1920px){
+
+   body {
+      width: 98%;
+   }
+
+   #titulo {
+      font-size: 5em;
+   }
+
+   li a {
+      font-size: 4.5em;
+   }
+   
+   #Acd {
+      font-size: 4.5em;
+   }
+
+   p {
+      font-size: 4em;
+   }
+
+}

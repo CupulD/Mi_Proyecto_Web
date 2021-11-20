@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Kings&family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mohave:wght@300&display=swap');
+
+
+html {
+   width: 100%;
+   font-family: 'Kings', cursive;
+   font-size: 10px;
+}
+
+body {
+   background-color: rgb(15, 15, 15);
+   width: 98%;
+}
+
+header {
+   margin: 0px;
+   padding: 2px;
+}
+
+.div {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#titulo {
+   text-align:center;
+   font-family: cursive;
+   color:rgba(238, 206, 24, 0.801);
+   font-size: 3.2em;
+   display: inline-block;
+   margin-top: -10;
+}
+
+#menu {
+   display: flex;
+   width: 95%;
+   justify-content: center;
+   margin-left: 30px;
+   background-color: rgb(15, 15, 15);
+   border-bottom: 4px whitesmoke solid;
+   border-top: 4px whitesmoke solid;
+}
+
+nav {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(15, 15, 15);
+}
+
+ul {
+   list-style-type: none;
+   margin: 0px;
+   padding: 0px 20px;
+   overflow: hidden;
+}
+
+li {
+   float: left;
+   padding: 8px;
+   margin: auto;
+}
+
+li a {
+   text-decoration: none;
+   text-align: center;
+   display: block;
+   padding-right: 20px;
+   font-family: 'Kings', cursive;
+   font-size: 3.3em;
+   color: rgb(5, 165, 90);
+}
+
+li a:hover {
+    color: mediumturquoise;
+}
+
+marquee {
+   color: rgba(238, 206, 24, 0.801);
+   font-size: 5em;
+   font-family: 'Times New Roman', Times, serif;
+   margin-top: 5px;
+}
+
+select{
+   width: 250px;
+   height: 23px;
+   font-size: 1.8em;
+   margin-top: 10px;
+}
+
+#elem {
+   height: 280px;
+   width: 200px;
+   border: whitesmoke 2px solid;
+   margin: 15px;
+}
+
+#elem p {
+   font-size: 1.5em;
+   color: white;
+   text-align: left;
+   font-family: 'Times New Roman', Times, serif;
+   margin-left: 5px;
+}
+
+#elem div{
+   width: auto;
+   text-align: center;
+}
+
+#elem img {
+   width: 180px;
+   height: auto;
+   text-align: center;
+   margin-top: 3px;
+
+}
+
+#elem a {
+   font-size: 1.8em;
+   color: gold;
+   font-family: 'Times New Roman', Times, serif;
+   text-align: right;
+}
+
+
+@media (max-width:360px){
+   
+   body {
+      width: 98%;
+   }
+   
+   #titulo {
+      font-size: 2.8em;
+      margin-bottom: 5px;
+      margin-top: -3px;
+   }
+
+   #menu {
+      width: 98%;
+      text-align: center;
+      border-bottom: 2px whitesmoke solid;
+      border-top: 2px whitesmoke solid;
+      margin-left: 2px;
+   }
+   
+   nav {
+      padding: 5px 5px;
+      border: 2px, whitesmoke, solid;
+   }
+   
+   li a {
+      font-size: 1em;
+      padding-left: 2px;
+      padding-right: 2px;
+   }
+
+   marquee {
+      color: rgba(238, 206, 24, 0.801);
+      font-size: 2em;
+      font-family: 'Times New Roman', Times, serif;
+      margin-top: 2px;
+   }
+
+   select {
+      width: 150px;
+      height: 15px;
+      font-size: 1.1em;
+      margin-top: 5px;
+      margin-left: 10px;
+   }
+
+   #elem {
+      width: 180px;
+      height: 260px;
+      text-align: center;
+   }
+
+   #elem img {
+      width: 160px;
+      height: auto;
+      text-align: center;
+      margin-top: .5em;
+      margin-left: -3px;
+   }
+}
+
+
+@media (min-width: 361px) and (max-width:639px){
+   
+   body {
+      width: 98%;
+   }
+   
+   #titulo {
+      font-size: 2.8;
+      margin-bottom: 5px;
+      margin-top: -3px;
+   }
+
+   #menu {
+      width: 98%;
+      text-align: center;
+      border-bottom: 2px whitesmoke solid;
+      border-top: 2px whitesmoke solid;
+      margin-left: 2px;
+   }
+  
+   nav {
+      padding: 5px 5px;
+      border: 2px, whitesmoke, solid;
+   }
+   
+   li a {
+      font-size: 1em;
+      padding-left: 2px;
+      padding-right: 2px;
+      padding-top: -5px;
+   }
+
+   select {
+      width: 150px;
+      height: 15px;
+      font-size: 1.1em;
+      margin-top: 10px;
+      margin-left: 14px;
+   }
+
+   marquee {
+      color: rgba(238, 206, 24, 0.801);
+      font-size: 2.5em;
+      font-family: 'Times New Roman', Times, serif;
+      margin-top: 2px;
+   }
+
+   #elem {
+      width: 180px;
+      height: 260px;
+      text-align: center;
+   }
+
+   #elem img {
+      width: 160px;
+      height: auto;
+      text-align: center;
+      margin-top: .5em;
+      margin-left: -3px;
+   }
+}
+
+
+@media only screen and (min-width:640px) and (max-width:1023px){
+   
+   body {
+      width: 98%;
+   }
+
+   #menu {
+      width: 95%;
+      text-align: center;
+      margin-left: 20px;
+   }
+
+   li a {
+   padding-right: 3px;
+   font-size: 2em;
+   }
+  
+   select {
+      width: 280px;
+      height: 30px;
+      font-size: 1.5em;
+      margin-left: 20px;
+   }
+   
+   marquee {
+      color: rgba(238, 206, 24, 0.801);
+      font-size: 3em;
+      font-family: 'Times New Roman', Times, serif;
+      margin-top: 2px;
+   }
+
+   #elem {
+      width: 220px;
+      height: 315px;
+   }
+
+   #elem p {
+      font-size: 1.8em;
+      color: white;
+      text-align: left;
+      font-family: 'Times New Roman', Times, serif;
+      margin-left: 5px;
+   }
+
+   #elem img {
+      width: 200px;
+      height: auto;
+      text-align: center;
+      margin-left: 10px;
+      margin-top: 10px;
+   }
+}
+
+
+@media only screen and (min-width:1024px) and (max-width:1279px){
+   
+   body {
+      width: 98%;
+   }
+
+   #menu {
+      width: 98%;
+      text-align: center;
+      margin-left: 10px;
+   }
+
+   li a {
+      font-size: 2.8em;
+   }
+
+   select {
+      width: 300px;
+      height: 35px;
+      font-size: 1.9em;
+      margin-left: 15px;
+   }
+
+   #elem {
+      width: 300px;
+      height: 410px;
+   }
+   
+   #elem p {
+      font-size: 2.5em;
+      color: white;
+      text-align: left;
+      font-family: 'Times New Roman', Times, serif;
+      margin-left: 5px;
+   }
+   
+   #elem div{
+      width: auto;
+      text-align: center;
+   }
+   
+   #elem img {
+      width: 250px;
+      height: auto;
+      text-align: center;
+      margin-left: auto;
+      margin-top: 10px;
+   }
+   
+   #elem a {
+      font-size: 2.5em;
+      color: gold;
+      font-family: 'Times New Roman', Times, serif;
+      text-align: center;
+   }
+}
+
+
+@media only screen and (min-width:1329px) and (max-width:1919px){
+   
+   body {
+      width: 98%;
+   }
+
+   #menu {
+      width: 98%;
+      text-align: center;
+      margin-left: 15px;
+   }
+
+   li a {
+      font-size: 3.4em;
+   }
+
+   select {
+      width: 380px;
+      height: 42px;
+      font-size: 2.4em;
+   }
+
+   #elem {
+      width: 400px;
+      height: 525px;
+   }
+
+   #elem p {
+      font-size: 3em;
+      color: white;
+      text-align: left;
+      font-family: 'Times New Roman', Times, serif;
+      margin-left: 5px;
+   }
+   
+   #elem div{
+      width: auto;
+      text-align: center;
+   }
+   
+   #elem img {
+      width: 380px;
+      height: auto;
+      text-align: center;
+      margin-left: 10px;
+      margin-top: 10px;
+   }
+   
+   #elem a {
+      font-size: 3em;
+      color: gold;
+      font-family: 'Times New Roman', Times, serif;
+      text-align: center;
+   }
+}  
+
+
+ 
+@media only screen and (min-width:1920px){
+   
+   body {
+      width: 98%;
+   }
+
+   #titulo {
+      font-size: 5em;
+   }
+
+   li a {
+      font-size: 4.5em;
+   }
+
+   select {
+      width: 420px;
+      height: 48px;
+      font-size: 3em;
+      margin-left: 780px;
+   }
+
+   #elem {
+      width: 600px;
+      height: 750px;
+      margin-top: 30px;
+   }
+
+   #elem p {
+      font-size: 4em;
+      color: white;
+      text-align: left;
+      font-family: 'Times New Roman', Times, serif;
+      margin-left: 5px;
+   }
+   
+   #elem div{
+      width: auto;
+      text-align: center;
+   }
+   
+   #elem img {
+      width: 560px;
+      height: auto;
+      text-align: center;
+      margin-top: 20px;
+   }
+   
+   #elem a {
+      font-size: 3em;
+      color: gold;
+      font-family: 'Times New Roman', Times, serif;
+      text-align: center;
+   }
+}
